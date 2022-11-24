@@ -138,25 +138,3 @@ class Service:
         self.service_obj = service
         self.resp = api.create_namespaced_service(namespace=self.namespace, body=self.service_obj)
         
-
-class Filter:
-    def __init__(self,dim,lens:int):
-        self.lens = lens
-        self.array = np.zeros((dim,1))
-        self.flag = 0
-        self.avg_out = np.zeros((dim,1))
-
-    def update(self,input_:np.ndarray):
-        dims = self.array.shape[0]
-        if self.flag == 0:
-            self.flag =1
-            self.array = input_
-        else:
-            self.array = np.hstack((self.array,input_))
-        if self.array.shape[1] > self.lens:
-            self.array = np.delete(self.array,0,1)
-        
-        for i in range(dims):
-            self.avg_out[i] = np.mean(self.array[i])
-        
-        return self.avg_out
