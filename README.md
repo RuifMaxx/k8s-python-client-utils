@@ -79,7 +79,7 @@ coredns_1.9.3.tar   docker-20.10.16.tgz   kubeasz_3.3.1.tar              metrics
 mkdir -p /etc/kubeasz/down
 ```
 
-### 提取cache文件夹中的镜像
+提取cache文件夹中的镜像
 
 采用如下命令提取cache文件夹中的镜像。如有必要，则按照ezdown脚本中的规则进行docker tag 镜像重命名打标签
 
