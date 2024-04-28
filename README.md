@@ -84,7 +84,7 @@ mkdir -p /etc/kubeasz/down
 采用如下命令提取cache文件夹中的镜像。如有必要，则按照ezdown脚本中的规则进行docker tag 镜像重命名打标签
 
 ```
-docker load -i "<镜像名>.tar"
+docker load -i "<镜像名>"
 ```
 
 如果需要保存镜像则
