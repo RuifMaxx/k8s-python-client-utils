@@ -62,7 +62,7 @@ ssh $IP ln -s /usr/bin/python3 /usr/bin/python
 
 ### 下载安装脚本和镜像文件
 
-安装脚本我在 [github.com/easzlab/kubeasz/](github.com/easzlab/kubeasz/)的基础上修改。 版本为kubeasz 3.3.1，k8s为1.24。安装脚本和镜像文件下载地址为：
+安装脚本我在 [https://github.com/easzlab/kubeasz/](https://github.com/easzlab/kubeasz/)的基础上修改。 版本为kubeasz 3.3.1，k8s为1.24。安装脚本和镜像文件下载地址为：
 
 [https://pan.baidu.com/s/1NGm1tE7ffVWEKQ3gE0Ergg?pwd=kwkx](https://pan.baidu.com/s/1NGm1tE7ffVWEKQ3gE0Ergg?pwd=kwkx)
 
