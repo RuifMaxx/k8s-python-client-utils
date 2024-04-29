@@ -38,7 +38,7 @@ Host Jumpk8s
 
 ### 卡在下载Vscode server
 
-内网连接Vscode server缓慢。最方便的办法是找一个已经装好Vscode server的Ubuntu服务器（需要对应windows笔记本电脑的vscode版本）。把其中的~/.vscode-server/文件夹SCP到192.168.0.1的~/目录即可。由于我的电脑装了Ubuntu双系统，创建一个本地的Vscode server非常方便。
+内网下载Vscode server缓慢。最方便的办法是找一个已经装好Vscode server的Ubuntu服务器（需要对应windows笔记本电脑的vscode版本）。把其中的~/.vscode-server/文件夹SCP到192.168.0.1的~/目录即可。由于我的电脑装了Ubuntu双系统，创建一个本地的Vscode server非常方便。
 
 ## K8S集群搭建
 如果是公有云服务器，需要在节点之间放通内网的ICMP协议，保证用内网IP能互相PING通。
