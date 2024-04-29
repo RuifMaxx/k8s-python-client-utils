@@ -109,7 +109,7 @@ calico_v3.19.4.tar  dashboard_v2.5.1.tar  k8s-dns-node-cache_1.21.1.tar  metrics
 coredns_1.9.3.tar   docker-20.10.16.tgz   kubeasz_3.3.1.tar              metrics-server_v0.5.2.tar   registry-2.tar
 ```
 
-复制到/etc/kubeasz/down下。
+复制到/etc/kubeasz/down下。如缺失其他镜像则需要在线拉群或者手动安装并修改ezdown脚本。
 
 创建集群配置实例
 
